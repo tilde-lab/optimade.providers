@@ -1,0 +1,149 @@
+{
+  "data": [
+    {
+      "type": "provider",
+      "id": "aiida",
+      "attributes": {
+        "name": "AiiDA",
+        "description": "Automated Interactive Infrastructure and Database for Computational Science (AiiDA)",
+        "base_url": null,
+        "homepage": "http://www.aiida.net"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "aflow",
+      "attributes": {
+        "name": "aflow.org",
+        "description": "",
+        "base_url": null,
+        "homepage": null
+      }
+    },
+    {
+      "type": "provider",
+      "id": "cod",
+      "attributes": {
+        "name": "Crystallography Open Database",
+        "description": "Open-access collection of crystal structures of organic, inorganic, metal-organics compounds and minerals, excluding biopolymers",
+        "base_url": "https://www.crystallography.net/cod/optimade",
+        "homepage": "https://www.crystallography.net/cod"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "exmpl",
+      "attributes": {
+        "name": "Example provider",
+        "description": "Provider used for examples, not to be assigned to a real database",
+        "base_url": "https://example.com/optimade",
+        "homepage": "https://example.com"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "httk",
+      "attributes": {
+        "name": "The High-Throughput Toolkit",
+        "description": "Prefix for implementation-specific identifiers used in the httk implementation at http://httk.org/",
+        "base_url": null,
+        "homepage": null
+      }
+    },
+    {"id":"autowannier","type":"child","attributes":{"name":"Automated high-throughput Wannierisation","description":"Validation results of an automated protocol for generating maximally-localized Wannier functions in a high-throughput framework.","base_url":"https://dev-aiida-dev.materialscloud.org/autowannier/optimade","homepage":"https://materialscloud.org/discover/autowannier"}},
+    {"id":"curated-cofs","type":"child","attributes":{"name":"CURATED covalent organic frameworks database","description":"Database of experimentally reported Covalent-Organic Frameworks (COFs), provided with DFT-optimized geometry and DDEC partial charges for molecular simulations.","base_url":"https://dev-aiida-dev.materialscloud.org/curated-cofs/optimade","homepage":"https://materialscloud.org/discover/curated-cofs"}},
+    {"id":"optimade-sample","type":"child","attributes":{"name":"OPTIMADE Sample Database","description":"Database with example structures for OPTIMADE tests.","base_url":"https://dev-aiida-dev.materialscloud.org/optimade-sample/optimade","homepage":"https://materialscloud.org"}},
+    {"id":"3dd","type":"child","attributes":{"name":"Three-dimensional crystals database","description":"Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimantal databases MPDS, COD, and ICSD.","base_url":"https://dev-aiida-dev.materialscloud.org/3dd/optimade","homepage":"https://materialscloud.org"}},
+    {"id":"hcofs-co2","type":"child","attributes":{"name":"COFs for CO2 capture and storage applications","description":"A curated set of COFs with the highest Henry coefficient for CO2, where the full CO2 and N2 isotherm and the parasitic energy for the process have been computed.","base_url":"https://dev-aiida-dev.materialscloud.org/hcofs-co2/optimade","homepage":"https://materialscloud.org"}},
+    {
+      "type": "provider",
+      "id": "mp",
+      "attributes": {
+        "name": "materialsproject.org",
+        "description": "",
+        "base_url": "https://optimade.materialsproject.org",
+        "homepage": null
+      }
+    },
+    {
+      "type": "provider",
+      "id": "mpds",
+      "attributes": {
+        "name": "materials platform for data science",
+        "description": "",
+        "base_url": null,
+        "homepage": null
+      }
+    },
+    {
+      "type": "provider",
+      "id": "nmd",
+      "attributes": {
+        "name": "novel materials discovery (NOMAD)",
+        "description": "A FAIR data sharing platform for materials science data",
+        "base_url": "https://repository.nomad-coe.eu/v0.8/optimade",
+        "homepage": "https://repository.nomad-coe.eu/v0.8"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "odbx",
+      "attributes": {
+        "name": "open database of xtals",
+        "description": "A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io",
+        "base_url": "https://optimade.odbx.science",
+        "homepage": "https://odbx.science"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "omdb",
+      "attributes": {
+        "name": "open materials database",
+        "description": "",
+        "base_url": null,
+        "homepage": null
+      }
+    },
+    {
+      "type": "provider",
+      "id": "optimade",
+      "attributes": {
+        "name": "OPTiMaDe implementations and libraries",
+        "description": "Prefix for implementation-specific identifiers used in API implementations and libraries provided at https://github.com/Materials-Consortia",
+        "base_url": null,
+        "homepage": "https://www.optimade.org"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "oqmd",
+      "attributes": {
+        "name": "open quantum materials database",
+        "description": "",
+        "base_url": null,
+        "homepage": null
+      }
+    },
+    {
+      "type": "provider",
+      "id": "jarvis",
+      "attributes": {
+        "name": "Joint Automated Repository for Various Integrated Simulations (JARVIS)",
+        "description": "JARVIS is a repository designed to automate materials discovery using classical force-field, density functional theory, machine learning calculations and experiments.",
+        "base_url": null,
+        "homepage": "https://jarvis.nist.gov"
+      }
+    },
+    {
+      "type": "provider",
+      "id": "tcod",
+      "attributes": {
+        "name": "Theoretical Crystallography Open Database",
+        "description": "Open-access collection of theoretically calculated or refined crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers",
+        "base_url": "https://www.crystallography.net/tcod/optimade",
+        "homepage": "https://www.crystallography.net/tcod"
+      }
+    }
+  ]
+}
